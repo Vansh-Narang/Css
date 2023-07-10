@@ -1,0 +1,31 @@
+main {
+    border: 5px solid brown;
+    /* width: 50%; */
+    /* 50 % means half of parent */
+    width: 50vw;
+    /*view width 50 means at the time of view width must be half*/
+    /*pexels is absolute unit*/
+}
+
+body {
+    font-size: 2rem;
+}
+
+header {
+    font-size: 2em;
+}
+
+/* em means double the parent (by normal the parent has 1em if we change it according to it the child will change) */
+h1 {
+    /* absolute means chahe user ne size increase kr rakh ho but use to ek he size dikhega so we prefer em*/
+    font-size: 2rem;
+    /* //rem means relative to the root (root*its own value)no need of parent */
+}
+
+section {
+    border: 5px dashed green;
+    /* width: 100vw;
+    height: 100vh; */
+    width: 50vw;
+    /*em means 16px*/
+}
