@@ -1,0 +1,30 @@
+* {
+    /* universal operator */
+    font-family: monospace;
+}
+
+body {
+    font-size: 24px;
+}
+
+#first,
+#second {
+    color: red;
+}
+
+.purple {
+    color: purple;
+}
+
+.highlighted {
+    background-color: yellow;
+}
+
+/* pseudo selectors */
+p:hover {
+    font-family: cursive;
+}
+
+/* id > class> element (priority)*/
+
+/* important->give priority but use less */
