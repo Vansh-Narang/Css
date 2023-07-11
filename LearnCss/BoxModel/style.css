@@ -1,0 +1,16 @@
+* {
+    /* by default margin and padding is something */
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    /* limit to 200px whatever the margin or padidng is */
+}
+
+.box {
+    border: 20px solid red;
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    padding: 30px;
+    font-size: 22px;
+}
