@@ -1,0 +1,48 @@
+.container {
+    margin: 100px;
+    height: 600px;
+    width: 300px;
+    background-color: gainsboro;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+}
+
+.red {
+    /* //relative to parent */
+    position: relative;
+    background-color: red;
+    top: 100px;
+    left: 100px;
+}
+
+.green {
+    /*means float according to parent postion relative element*/
+    position: absolute;
+    background-color: green;
+    right: 0;
+    bottom: 0;
+    ;
+
+}
+
+.blue {
+    background-color: blue;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.purple {
+    position: sticky;
+    background-color: purple;
+
+    /* top se 50px stick kr de */
+    top: 50px;
+}
+
+.spcr {
+    height: 300vh;
+}
