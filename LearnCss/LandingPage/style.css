@@ -160,3 +160,19 @@ header {
 .get-started-btn {
     margin-top: 20px;
 }
+
+/*companies header*/
+.companies-header {
+    text-align: center;
+    margin-block: 30px;
+    color: var(--primary-text-color);
+}
+
+.logos {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 46px;
+}
