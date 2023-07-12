@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 50px;
+}
+
+.container {
+    height: 400px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    /* gap: 20px; */
+    /* row-gap: 10px;
+    column-gap: 10px; */
+    flex-flow: wrap row;
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: flex-end; */
+    justify-content: center;
+    /* align-items: center; */
+    /* align-items: start; */
+    /* //main axis above used in justify content*/
+
+    /* //align items used in cross axis */
+    /* align-items: center; */
+    /* align-items: start; */
+}
+
+.box {
+    border: 2px solid green;
+    /* margin: 10px; */
+    width: 80px;
+    /* flex-basis: 25%; */
+    /* //children properties */
+}
+
+#box-1 {
+    /* order: 1;
+    flex-grow: 1; */
+    /* flex-basis: 200px; */
+}
+
+#box-3 {
+    /* order: 2;
+    flex-shrink: 2; */
+}
+
+#box-5 {
+    /* flex-grow: 4; */
+}
+
+#box-4 {
+    /* flex-shrink: 10; */
+    align-self: stretch;
+}
