@@ -185,6 +185,10 @@ header {
     background-position: center;
 }
 
+.features-card img {
+    width: 60px;
+}
+
 .features-header {
     text-align: center;
 }
@@ -305,4 +309,15 @@ footer {
 .footer-container {
     align-items: flex-start;
     justify-content: space-between;
+}
+
+/*Subsection*/
+.subfooter {
+    background-color: #b9cde4;
+    padding: var(--padding-inline-section);
+}
+
+.subfooter-container {
+    justify-content: center;
+    gap: 30px;
 }
