@@ -151,3 +151,21 @@ nav img {
 .left-side p {
     font-size: 24px;
 }
+
+/*FAQ*/
+.Faq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textfaq {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+.questions {
+    gap: 20px;
+}
