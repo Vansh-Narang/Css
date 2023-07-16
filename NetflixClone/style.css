@@ -22,10 +22,18 @@ ul {
     list-style: none;
 }
 
+/*Divider*/
+hr.rounded {
+    border-top: 8px solid #696969;
+    border-bottom: solid #000000;
+    border-radius: 5px;
+}
+
+/*Hero section*/
 .outer-box {
     width: 100%;
-    height: 100vh;
-    background-image: url("assets/background.png");
+    height: 75vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("assets/background.png");
     background-size: cover;
     background-position: center;
     padding: 10px 8%;
@@ -61,6 +69,7 @@ nav img {
 }
 
 .primary-btn {
+    color: white;
     border-radius: 4px;
     padding: 7px 20px;
     cursor: pointer;
@@ -116,4 +125,29 @@ nav img {
     font-size: 16px;
     padding: 15px 30px;
     cursor: pointer;
+}
+
+/*1st section*/
+.enjoy {
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.right-side img {
+    width: 100%;
+}
+
+.left-side {
+    width: 30%;
+}
+
+.left-side h1 {
+    font-size: 48px;
+}
+
+.left-side p {
+    font-size: 24px;
 }
